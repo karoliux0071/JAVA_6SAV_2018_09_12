@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: content;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 15% 42% 42%;
+    grid-template-rows: 70px min-content 1fr;
+    grid-template-areas: "header header header" "sidebar content content" "footer footer footer";
+}
+
+header {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 80%;
+}

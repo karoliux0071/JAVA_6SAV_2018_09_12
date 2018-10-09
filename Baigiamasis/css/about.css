@@ -1,0 +1,24 @@
+.test {
+    background-color: red;
+}
+
+div.test {
+    font-size: 40px;
+}
+
+li.test {
+    color: white;
+}
+
+body > div > main > ul > li:nth-child(4) {
+    background-color: green;
+}
+
+.grid-wrapper {
+    grid-template-areas: "header header header" "content content content" "footer footer footer";
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+.sheet {
+    display: none;
+    min-height: 200px;
+}
+
+.sheetai .aktyvus{
+    display: block;
+    border: 1px solid green;
+}
+.tabai .aktyvus {
+    color: green;
+}
