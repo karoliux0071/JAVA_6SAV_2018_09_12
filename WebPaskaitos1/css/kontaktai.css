@@ -1,0 +1,9 @@
+.grid-wrapper {
+    grid-template-areas: "header header header" "content content content" "footer footer footer";
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+

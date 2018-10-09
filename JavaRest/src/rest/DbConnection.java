@@ -1,3 +1,5 @@
+package rest;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -11,6 +13,11 @@ public class DbConnection {
     private static final String PASSWORD = "";
 
     public static Connection CreateConnection(){
+        try {
+            Class.forName("com.mysql.jdbc.Driver");  //nurodomi draiveriai
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);

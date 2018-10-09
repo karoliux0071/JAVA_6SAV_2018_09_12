@@ -1,0 +1,31 @@
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.gallery > .item {
+    border: 1px solid lightgray;
+    height: 290px;
+}
+
+.gallery > .item > img {
+    width: 100%;
+}
+
+.gallery > .item > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}

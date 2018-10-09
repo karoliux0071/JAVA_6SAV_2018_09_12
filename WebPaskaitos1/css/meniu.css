@@ -1,0 +1,32 @@
+@keyframes meniu_hover {
+    from {
+        color: inherit;
+    }
+    to {
+        color: cornflowerblue;
+    }
+}
+
+.meniu_item:hover {
+    animation-name: meniu_hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+aside li {
+    margin: 5px 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+aside li:hover {
+    box-shadow: 2px 2px 2px darkgray;
+}
+
+aside li a {
+    text-decoration: none;
+    color: green;
+}
+
+aside li a:hover {
+    color: #3272f7;
+}

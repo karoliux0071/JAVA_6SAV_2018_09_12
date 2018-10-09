@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+import org.glassfish.jersey.server.ResourceConfig;
 
-public class ApplicationConfig {
+import javax.ws.rs.ApplicationPath;
+
+@ApplicationPath("/rest")
+
+
+public class ApplicationConfig extends ResourceConfig {
+    public ApplicationConfig() {
+        packages("rest");
+    }
+
 }

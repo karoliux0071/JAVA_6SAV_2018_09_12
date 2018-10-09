@@ -1,0 +1,14 @@
+/* Animacijos kodas */
+@keyframes example {
+    0% {background-color: white;}
+    50% {background-color: #4cffa1;}
+    100% {background-color: white;}
+}
+
+/* Elementas kuriam taikysime animacija */
+.animacija {
+    background-color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  /* nurodo kad suksis be parstojo */
+}
