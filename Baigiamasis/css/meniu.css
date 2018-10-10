@@ -3,7 +3,7 @@
         color: inherit;
     }
     to {
-        color: #2ced2d;
+        color: #ff760f;
     }
 }
 
@@ -28,5 +28,5 @@ aside li a {
 }
 
 aside li a:hover {
-    color: #2ced2d;
+    color: #ff3500;
 }
