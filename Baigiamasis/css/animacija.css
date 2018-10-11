@@ -1,10 +1,10 @@
 /* Animacijos kodas */
 @keyframes example {
-    0% {background-color: #f5f5f5;}
+    0% {background-color: #a1a1a1;}
     20% {background-color: #0eff4c;}
     20% {background-color: #adff32;}
     20% {background-color: #7aff3c;}
-    100% {background-color: #f5f5f5;}
+    100% {background-color: #a1a1a1;}
 }
 
 /* Elementas kuriam taikysime animacija */

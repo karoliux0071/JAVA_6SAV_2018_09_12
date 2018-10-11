@@ -3,7 +3,7 @@ body {
 }
 
 header, footer {
-    background-color: #0b0f19;
+    background-color: #1e1e3a;
     color: #ffab00;
 }
 
@@ -36,7 +36,7 @@ header .logo img {
 }
 
 header nav span {
-    border-right: 2px solid white;
+    border-right: 2px solid #ff760f;
     padding: 0 10px;
 }
 
@@ -45,6 +45,6 @@ header nav span:last-child {
 }
 header nav span a{
     font-size: 21px;
-    color: lightgray;
+    color: #adff32;
     text-decoration: none;
 }
